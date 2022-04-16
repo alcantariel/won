@@ -6,7 +6,7 @@ A consulta nos permite informar de quais dados precisamos como resposta de uma d
 
 <br>
 
-# GraphQL Clients
+## GraphQL Clients
 
 São responsáveis por criar camadas de abstração para que ajudam na utilização dos recursos do GraphQL como realizar queries e mutations, cache, validações e otimizações.
 
