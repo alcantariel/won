@@ -1,5 +1,5 @@
-# Won
+# Boilerplate
 
-Para iniciar a aplicação, execute:
+Para utilizar este boilerplate, execute:
 
-- `yarn dev` e acesse `http://localhost:3000`
+`yarn create next-app -e https://github.com/alcantariel/won/tree/master/boilerplate`
