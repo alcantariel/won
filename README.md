@@ -25,11 +25,11 @@ Abra o browser em: [http://localhost:3000](http://localhost:3000).
 
 ## Comandos
 
-- `dev`: runs your application on `localhost:3000`
-- `build`: creates the production build version
-- `start`: starts a simple server with the build production code
-- `lint`: runs the linter in all components and pages
-- `test`: runs jest to test all components and pages
-- `test:watch`: runs jest in watch mode
-- `storybook`: runs storybook on `localhost:6006`
-- `build-storybook`: create the build version of storybook
+- `dev`: roda a aplicação em `localhost:3000`
+- `build`: cria o build de produção da aplicação
+- `start`: inicia o server com o build de produção
+- `lint`: executa o lint em todos os arquivos do projeto
+- `test`: executa o jest para rodar os testes do projeto
+- `test:watch`: executa o jest, e o mesmo fica "assistindo" mudanças, para rodar os testes automaticamente após as alterações
+- `storybook`: executa o storybook em `localhost:6006`
+- `build-storybook`: cria o build de produção do storybook
