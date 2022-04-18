@@ -30,3 +30,6 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+publuc/sw.js
+publuc/workbox-*.js
