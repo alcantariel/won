@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_concepts",
+  "info": {
+    "displayName": "Concepts",
+    "icon": "clipboard-list"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "conceptItem": {
+      "displayName": "conceptItem",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concept-item",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_modules",
+  "info": {
+    "displayName": "Modules",
+    "icon": "boxes"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "moduleItem": {
+      "displayName": "Module Item",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.module-item",
+      "required": true
+    }
+  }
+}

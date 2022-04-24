@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_questions",
+  "info": {
+    "displayName": "questions",
+    "icon": "question-circle"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

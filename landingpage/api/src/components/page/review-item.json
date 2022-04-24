@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_review_items",
+  "info": {
+    "displayName": "Review Item",
+    "icon": "grin-stars",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "review": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

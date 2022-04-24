@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_about_uses",
+  "info": {
+    "displayName": "About Us",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "authors": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::author.author"
+    }
+  }
+}

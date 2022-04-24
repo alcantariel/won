@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_teches",
+  "info": {
+    "displayName": "Tech",
+    "icon": "tools",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "techIcon": {
+      "displayName": "Tech Icon",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.tech-icon",
+      "required": true
+    }
+  }
+}

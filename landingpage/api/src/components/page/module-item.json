@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_page_module_items",
+  "info": {
+    "displayName": "Module Item",
+    "icon": "box"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

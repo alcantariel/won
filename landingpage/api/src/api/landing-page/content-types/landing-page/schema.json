@@ -1,0 +1,94 @@
+{
+  "kind": "singleType",
+  "collectionName": "landing_pages",
+  "info": {
+    "singularName": "landing-page",
+    "pluralName": "landing-pages",
+    "displayName": "Landing Page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "header": {
+      "displayName": "Header",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.header",
+      "required": true
+    },
+    "about": {
+      "displayName": "About",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about",
+      "required": true
+    },
+    "tech": {
+      "displayName": "Tech",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.tech",
+      "required": true
+    },
+    "concepts": {
+      "displayName": "Concepts",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.concepts",
+      "required": true
+    },
+    "modules": {
+      "displayName": "Modules",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.modules",
+      "required": true
+    },
+    "agenda": {
+      "displayName": "Agenda",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.agenda",
+      "required": true
+    },
+    "pricingBox": {
+      "displayName": "Pricing Box",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.pricing-box",
+      "required": true
+    },
+    "aboutUs": {
+      "displayName": "About Us",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.about-us",
+      "required": true
+    },
+    "reviews": {
+      "displayName": "Reviews",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.reviews",
+      "required": true
+    },
+    "faq": {
+      "displayName": "FAQ",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.faq",
+      "required": true
+    }
+  }
+}
