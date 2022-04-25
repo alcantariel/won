@@ -14,11 +14,14 @@
     "generate": "yarn plop --plopfile ./generators/plopfile.js"
   },
   "dependencies": {
+    "graphql": "^16.3.0",
+    "graphql-request": "^4.2.0",
     "next": "12.1.5",
     "next-pwa": "^5.5.2",
     "react": "18.0.0",
     "react-dom": "18.0.0",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.5",
+    "styled-media-query": "^2.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.17.9",
